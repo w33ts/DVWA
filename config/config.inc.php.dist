@@ -24,13 +24,13 @@ $_DVWA[ 'db_database' ] = getenv('DB_DATABASE') ? : 'dvwa';
 # ReCAPTCHA settings
 #   Used for the 'Insecure CAPTCHA' module
 #   You'll need to generate your own keys at: https://www.google.com/recaptcha/admin
-$_DVWA[ 'recaptcha_public_key' ]  = '';
-$_DVWA[ 'recaptcha_private_key' ] = '';
+$_DVWA[ 'recaptcha_public_key' ]  = getenv('RECAPTCHA_PUBLIC_KEY')   ? : '';
+$_DVWA[ 'recaptcha_private_key' ] = getenv('RECAPTCHA_PRIVATE_KEY')   ? : '';
 
 # Default security level
 #   Default value for the security level with each session.
 #   The default is 'impossible'. You may wish to set this to either 'low', 'medium', 'high' or impossible'.
-$_DVWA[ 'default_security_level' ] = 'impossible';
+$_DVWA[ 'default_security_level' ] = getenv('DEFAULT_SECURITY_LEVEL')   ? : 'impossible';
 
 # Default locale
 #   Default locale for the help page shown with each session.
