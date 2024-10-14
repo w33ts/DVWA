@@ -1,3 +1,4 @@
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/J9H6gU?referralCode=FktSDa)
 # Translation / Traduction
 
 Philibert Gentil：@[Philibert-Gentil](https://github.com/Philibert-Gentil)
