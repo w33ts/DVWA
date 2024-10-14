@@ -1,3 +1,4 @@
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/J9H6gU?referralCode=FktSDa)
 # DAMN VULNERABLE WEB APPLICATION
 
 إن  Damn Vulnerable Web Application (DVWA) هو تطبيق ويب تم إضعافه عمداً ومصمم بـ PHP / MySQL. الهدف الرئيسي هو مساعدة مختصي أمن المعلومات وذلك باختبار مهاراتهم وأدواتهم في بيئة تشبه البيئة الحقيقية، ومساعدة مطوري الويب على فهم طرق تأمين تطبيقات الويب بشكل أفضل ومساعدة كل من الطلاب والمدرسين في التعرف على أمان تطبيقات الويب في بيئة محكمة.
